@@ -1,0 +1,89 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+  flex-wrap: wrap-reverse;
+}
+
+.intro img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.intro .intro-text {
+  flex-basis: 60%;
+  margin-bottom: 20px;
+}
+
+.intro h1,
+.intro h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.intro .highlight {
+  color: goldenrod;
+}
+
+.intro button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  align-self: flex-end;
+}
+
+.intro button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.social {
+  background-color: #f2f2f2;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.social p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social li {
+  margin-right: 20px;
+}
+
+.social li:last-child {
+  margin-right: 0;
+}
+
+.social a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.social a:hover {
+  color: goldenrod;
+}
